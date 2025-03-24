@@ -1,1 +1,150 @@
-Planeación de la segunda semana
+### Planeación Semana del Sprint: Paso a Paso
+
+---
+
+#### Día 1: Introducción y Bases
+
+##### Equipo Figma (2 integrantes):
+1. **Explicación**:
+   - Introducir qué es Figma y su importancia en el diseño web.
+   - Herramientas básicas: mover, seleccionar, capas, formas, texto.
+   - Cómo trabajar con colores, alineaciones y organización visual.
+   - Ejemplo práctico: Crear un encabezado simple con barra de navegación.
+2. **Actividad**:
+   - Diseñar el header (logo, barra de navegación y color de fondo) usando las herramientas enseñadas.
+
+##### **Equipo Desarrollo (tú y 1 integrante):**
+1. **Explicación**:
+   - **HTML Básico**:
+     - `<!DOCTYPE html>`: Declara que el documento utiliza HTML5.
+     - `<html>`: Enmarca todo el contenido de la página.
+     - `<head>`:
+       - Contiene información sobre la página, como título y enlaces.
+       - Introduce `<meta charset="UTF-8">` para caracteres especiales.
+       - Explica cómo vincular un archivo CSS con `<link>`:
+         ```html
+         <link rel="stylesheet" href="styles.css">
+         ```
+       - Crear un `<title>` para la pestaña del navegador.
+     - `<body>`: Sección donde va todo lo visible al usuario.
+       - Encabezados (`<h1>`-`<h6>`) y párrafos (`<p>`).
+       - Ejemplo:
+         ```html
+         <h1>Bienvenidos</h1>
+         <p>Esto es un párrafo.</p>
+         ```
+2. **Actividad**:
+   - Crear juntos un archivo HTML básico con una estructura inicial (header, una sección y footer).
+
+---
+
+#### **Día 2: Avanzando en el Diseño y Estilo**
+
+##### **Equipo Figma:**
+1. **Explicación**:
+   - Uso de auto-layout: facilita el diseño consistente.
+   - Cómo crear componentes reutilizables (botones, tarjetas).
+2. **Actividad**:
+   - Diseñar la sección principal: incluir un título, subtítulo y un botón de llamada a la acción (CTA).
+
+##### **Equipo Desarrollo**:
+1. **Explicación**:
+   - **CSS Básico**:
+     - Cómo vincular el CSS al HTML.
+     - Uso de selectores básicos:
+       - Por etiqueta (`h1`), por clase (`.clase`), y por ID (`#id`).
+     - Propiedades básicas: `color`, `background-color`, `font-family`, `text-align`.
+     - Introducción a `flexbox`:
+       - Alinear elementos en columnas o filas de forma sencilla.
+       - Ejemplo:
+         ```css
+         .contenedor {
+             display: flex;
+             justify-content: center;
+             align-items: center;
+         }
+         ```
+2. **Actividad**:
+   - Aplicar estilos al HTML creado el día anterior: color de fondo, tipografía, y diseño del header usando `flexbox`.
+
+---
+
+#### **Día 3: Dinámicas e Interactividad**
+
+##### **Equipo Figma:**
+1. **Explicación**:
+   - Cómo simular interacción (enlaces entre secciones).
+   - Añadir íconos y animaciones simples (para botones o menús).
+2. **Actividad**:
+   - Diseñar las secciones restantes (por ejemplo, equipo y servicios).
+
+##### **Equipo Desarrollo**:
+1. **Explicación**:
+   - **Animaciones con CSS**:
+     - Transiciones (`transition`): Suavizan los cambios.
+     - Efectos `hover` para botones:
+       ```css
+       .boton:hover {
+           background-color: #ff6347;
+           transform: scale(1.1);
+       }
+       ```
+   - **Formularios en HTML**:
+     - Crear campos (`<input>`, `<textarea>`).
+     - Tipos básicos: texto, email.
+     - Atributos: `required` para validar campos vacíos.
+2. **Actividad**:
+   - Crear botones animados y un formulario con campos básicos.
+
+---
+
+#### **Día 4: Navegación y Funcionalidad**
+
+##### **Equipo Figma:**
+1. **Explicación**:
+   - Cómo mejorar detalles visuales: espaciado, alineaciones y uso consistente de colores.
+2. **Actividad**:
+   - Revisar y ajustar todos los elementos en la maqueta.
+
+##### **Equipo Desarrollo**:
+1. **Explicación**:
+   - **Introducción a JavaScript**:
+     - Uso del DOM para manipular elementos.
+     - Agregar eventos con `addEventListener`:
+       ```javascript
+       const boton = document.getElementById("miBoton");
+       boton.addEventListener("click", () => {
+           alert("¡Botón presionado!");
+       });
+       ```
+   - Validar formularios con JavaScript:
+     - Ejemplo de comprobación de campos vacíos.
+2. **Actividad**:
+   - Implementar navegación funcional entre secciones y validaciones en el formulario.
+
+---
+
+#### **Día 5: Ensamble y Revisión**
+
+##### **Equipo Figma:**
+1. **Actividad**:
+   - Ajustar detalles finales según las necesidades del equipo de desarrollo.
+   - Documentar el diseño final y subirlo a Trello.
+
+##### **Equipo Desarrollo**:
+1. **Actividad**:
+   - Integrar todos los elementos (HTML, CSS y JavaScript).
+   - Realizar pruebas funcionales y de diseño.
+   - Corregir errores detectados durante las pruebas.
+
+---
+
+### **Checklist de la Semana**
+1. HTML estructurado correctamente.
+2. CSS bien aplicado, con diseño responsive (`flexbox` o `grid`).
+3. Botones animados con efectos `hover`.
+4. Formularios funcionales y validados.
+5. Navegación fluida y funcional.
+6. Diseño visual consistente entregado por el equipo de Figma.
+
+Con este plan detallado y las explicaciones incluidas, ¡estás listo para liderar a tu equipo hacia el éxito! Si necesitas algo más, aquí estoy. 😊
